@@ -24,7 +24,6 @@
             <groupId>guru.springframework</groupId>
             <version>0.0.5-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -37,15 +36,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- webjars -->
+
+       <!-- <dependency>
+            <groupId>com.autonomousapps.dependency-analysis</groupId>
+            <artifactId>com.autonomousapps.dependency-analysis.gradle.plugin</artifactId>
+            <version>0.61.0</version>
+        </dependency>-->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator-core</artifactId>
